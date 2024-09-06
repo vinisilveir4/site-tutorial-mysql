@@ -22,8 +22,8 @@ header {
 
 li {
     font-weight: 400;
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 16.8px;
+    margin-top: 4px;
     color: #888c91
 }
 
@@ -34,16 +34,41 @@ li:hover {
 
 .titulo-conteudo {
     font-weight: 500;
-    font-size: 18px;
-    color: #7d848b;
+    font-size: 19px;
+    color: #747373;
 }
 
 .subtitulo {
-    font-weight: 400;
-    font-size: 16px;
-    color: #3f4749
+    font-weight: 500;
+    font-size: 18px;
+    color: #00758f;
 }
 
 .borda-coluna {
     border-right: 2px solid #00758f;
 }
+
+#destaque-autores {
+    font-weight: 400;
+    font-size: 14px;
+    color: #7f8388
+}
+
+.texto-generico {
+    font-size: 15.4px;
+    color: #0b353d;
+}
+
+.estilo-link {
+    font-size: 15px;
+}
+
+#estilo-titulo {
+    color: #0e363f;
+}
+
+.div-borda {
+    height: 25px;
+    border-right: 2px solid #0e363f;
+}
+
