@@ -72,3 +72,11 @@ li:hover {
     border-right: 2px solid #0e363f;
 }
 
+.efeito-desativado {
+    opacity: 0.5;
+}
+
+.btn-desativado {
+    display: none;
+}
+

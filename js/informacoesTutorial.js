@@ -1,6 +1,8 @@
-const LINK_WINDOWS = "https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html";
-const LINK_MAC = "https://dev.mysql.com/doc/refman/8.0/en/macos-installation.html";
-const LINK_LINUX = "https://dev.mysql.com/doc/refman/8.0/en/linux-installation.html";
+const LINK_DOWNLOAD_WINDOWS = "https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html";
+const LINK_DOWNLOAD_MAC = "https://dev.mysql.com/doc/refman/8.0/en/macos-installation.html";
+const LINK_DOWNLOAD_LINUX = "https://dev.mysql.com/doc/refman/8.0/en/linux-installation.html";
+
+let tutorialIniciado = false;
 
 const Status = {
     NAO_CONCLUIDO: "Não concluído",
@@ -15,9 +17,9 @@ const tutorialMysql = [
         descricaoEtapa: `
         A instalação da ferramenta é um processo simples. Basta fazer o download do instalador 
         correto no site oficial, 
-        dependendo do sistema operacional do seu computador, seja <a target="_blank" class="link-opacity-100" href="${LINK_MAC}">macOS</a>,
-        <a target="_blank" class="link-opacity-100 estilo-link" href="${LINK_WINDOWS}">Windows</a>, ou 
-        <a target="_blank" class="link-opacity-100" href="${LINK_LINUX}">Linux</a>.`,
+        dependendo do sistema operacional do seu computador, seja <a target="_blank" class="link-opacity-100" href="${LINK_DOWNLOAD_MAC}">macOS</a>,
+        <a target="_blank" class="link-opacity-100 estilo-link" href="${LINK_DOWNLOAD_WINDOWS}">Windows</a>, ou 
+        <a target="_blank" class="link-opacity-100" href="${LINK_DOWNLOAD_LINUX}">Linux</a>.`,
         conteudo: [
             {
                 tituloConteudo: "Instalação no macOS",

@@ -24,8 +24,8 @@
     </header>
 
     <div class="container-fluid row my-5">
-      <div class="col-md-4 p-0 pe-5 d-flex flex-column align-items-end borda-coluna" style="height: max-content">
-        <img alt="Logo Mysql" src="./imagens/logo-mysql.png" height="210px" />
+      <div class="col-md-4 p-0 px-5 d-flex flex-column align-items-end borda-coluna" style="height: max-content">
+        <img alt="Logo Mysql" src="./imagens/logo-mysql.png" height="200px" />
 
         <div class="content-box mt-4">
           <p class="titulo-conteudo">
@@ -40,7 +40,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-6 p-0 ps-5 d-flex flex-column gap-4">
+      <div class="col-md-7 p-0 ps-5 d-flex flex-column gap-4">
         <div>
           <p class="h2" id="estilo-titulo">
             Introdução ao Mysql:
@@ -55,61 +55,66 @@
         </div>
 
         <div>
-        <p class="h4" id="estilo-titulo">
-          Sobre o Mysql
-        </p>
-        <p class="m-0 texto-generico">
-          É o banco de dados de código aberto mais conhecido no mundo. De acordo com o DB-Engines, o MySQL é o segundo
-          banco de dados mais popular, ficando atrás do Oracle Database.
-          Alimenta muitas das aplicações mais acessadas, como Facebook, Twitter, Netflix, Uber e Spotiify.
+          <p class="h4" id="estilo-titulo">
+            Sobre o Mysql
+          </p>
+          <p class="m-0 texto-generico">
+            É o banco de dados de código aberto mais conhecido no mundo. De acordo com o DB-Engines, o MySQL é o segundo
+            banco de dados mais popular, ficando atrás do Oracle Database.
+            Alimenta muitas das aplicações mais acessadas, como Facebook, Twitter, Netflix, Uber e Spotiify.
 
-          <br> Desenvolvido e mantido pela Oracle, como é de código aberto, inclui vários recursos desenvolvidos em estreita
-          cooperação com os usuários há mais de 25 anos. Portanto, é muito provável que sua aplicação
-          ou linguagem de programação que utiliza seja compatível com o MySQL Database.
-          Neste tutorial, vamos explorar um dos sistemas de <a target="_blank" class="link-opacity-100"
-          href="https://www.oracle.com/br/database/what-is-a-relational-database/">gerenciamento de banco de dados relacionais</a> mais confiável e
-          amplamente utilizado.
-        </p>
-
-      </div>
-
-      <div>
-        <p class="h4" id="estilo-titulo">
-          Pré requisitos
-        </p>
-        <p class="m-0 texto-generico">
-          SQL (Structured Query Language) é a forma padrão de criar, gerenciar e se comunicar com bancos de dados.
-          É a linguagem usada para trabalhar com alguns dos bancos de dados mais populares, como PostgreSQL, SQLite e
-          MySQL.
-          Portanto, para seguir este tutorial, recomendamos um conhecimento básico de SQL. 
-          <a target="_blank" class="link-opacity-100"
-            href="https://www.devmedia.com.br/exemplo/documentacao-sql/76">Documentação SQL</a> <br>
-          Pode também ser usado em diferentes sistemas operacionais, como Windows, Linux e macOS, e não exige
-          uma capacidade alta de processamento, sendo acessível mesmo em máquinas/PCs menos potentes.
-        </p>
-
-      </div>
-
-      <div class="row gap-2 mt-3">
-        <div class="container-fluid col-12 d-flex align-items-center justify-content-between">
-          <span class="navbar-brand mb-0 h1 estilo-titulo"><u>Tutorial Mysql: Um guia para iniciantes</u></span>
-
-          <button class="btn btn-outline-success ativo" type="button">Iniciar</button>
-        </div>
-
-        <!--renderiza tutorial-->
-
-        <div class="col-12 accordion" id="accordionTutorial">
+            <br> Desenvolvido e mantido pela Oracle, como é de código aberto, inclui vários recursos desenvolvidos em
+            estreita
+            cooperação com os usuários há mais de 25 anos. Portanto, é muito provável que sua aplicação
+            ou linguagem de programação que utiliza seja compatível com o MySQL Database.
+            Neste tutorial, vamos explorar um dos sistemas de <a target="_blank" class="link-opacity-100"
+              href="https://www.oracle.com/br/database/what-is-a-relational-database/">gerenciamento de banco de dados
+              relacionais</a> mais confiável e
+            amplamente utilizado.
+          </p>
 
         </div>
 
-        <!--fim-->
-      </div>
+        <div>
+          <p class="h4" id="estilo-titulo">
+            Pré requisitos
+          </p>
+          <p class="m-0 texto-generico">
+            SQL (Structured Query Language) é a forma padrão de criar, gerenciar e se comunicar com bancos de dados.
+            É a linguagem usada para trabalhar com alguns dos bancos de dados mais populares, como PostgreSQL, SQLite e
+            MySQL.
+            Portanto, para seguir este tutorial, recomendamos um conhecimento básico de SQL.
+            <a target="_blank" class="link-opacity-100"
+              href="https://www.devmedia.com.br/exemplo/documentacao-sql/76">Documentação SQL</a> <br>
+            Pode também ser usado em diferentes sistemas operacionais, como Windows, Linux e macOS, e não exige
+            uma capacidade alta de processamento, sendo acessível mesmo em máquinas/PCs menos potentes.
+          </p>
 
+        </div>
+
+        <div class="row gap-2 mt-3">
+          <div class="col-12">
+            <span class="navbar-brand mb-0 h1 estilo-titulo"><u>Tutorial Mysql: Um guia para iniciantes</u></span>
+          </div>
+
+          <div class="col-12 d-flex align-items-center justify-content-between px-3 py-2 bg-black bg-gradient rounded">
+            <p class="m-0 texto-generico text-white txtProgresso">Seu Progresso: 0%</p>
+            <button type="button" class="btn btn-success" id="botao-iniciar">Iniciar</button>
+          </div>
+
+          <!--renderiza tutorial-->
+
+          <div class="col-12 accordion p-0" id="accordionTutorial">
+
+          </div>
+
+          <!--fim-->
+        </div>
+
+      </div>
+      <div class="col-md-1 p-0 m-0">
+      </div>
     </div>
-    <div class="col-md-2 p-0 m-0">
-    </div>
-  </div>
   </div>
 
   <script src="./js/informacoesTutorial.js"></script>
