@@ -63,7 +63,7 @@ const tutorialMysql = [
         para gerenciamento.`,
         conteudo: [
             {
-                tituloConteudo: "Instalação do XAMPP",
+                tituloConteudo: "Instalação",
                 descricaoConteudo: `
            O XAMPP é uma opção rápida para rodar o serviço MySQL junto com o Apache e PHP em um ambiente local. 
            Faça o download e siga as instruções de instalação.`,
@@ -138,12 +138,12 @@ const tutorialMysql = [
                 descricaoConteudo: `
                 <br>
                 <spam class="estilo-sql">Int</spam>, <<spam class="estilo-sql">varchar</spam>(?) e <spam class="estilo-sql">date</spam> - Tipos de dados que serão registrados; <br>
-                Int - Números inteiros; <br>
+                <spam class="estilo-sql">Int</spam> - Números inteiros; <br>
                 <spam class="estilo-sql">Varchar</spam>(?)- Registra textos, é preciso colocar o numero maximo de caracteres que ira conter entre os parenteses; <br>
                 <spam class="estilo-sql">Date</spam> - Registra apenas dia, mes e ano, para adicinar dado nela é preciso escrever 'YYYY-MM-dd'(Ano-mes-dia); <br>
                 <spam class="estilo-sql">Primary Key</spam> - É a chave primaria desta tabela, ela é importante para termos certeza que cada registo é unico na tabela; <br>
-                <spam class="estilo-sql">Auto_increment</spam> - Ela auto incrementa a cada registro, assim não a deixando nula e também não precisando ser definida a cada insert; <br>
-                Assim como no nome da Database, o nome das tabelas e dados não podem possuir espaço ou assentos;`,
+                <spam class="estilo-sql">Auto_increment</spam> - Auto incrementa a cada registro, assim não a deixando nula e também não precisando ser definida a cada insert; <br>
+                Assim como no nome da Database, o nome das tabelas e dados não podem possuir espaço ou acentos;`,
                 imagem: "./imagens/explicacao-tabela.png"
             }
         ],
@@ -163,7 +163,7 @@ const tutorialMysql = [
             {
                 tituloConteudo: "Inserir registros na tabela (INSERT)",
                 descricaoConteudo: `Para registrar informações na tabela usamos o comando "<spam class="estilo-sql">INSERT INTO</spam> tabela (atributo1, atributo2, ...) <spam class="estilo-sql">VALUES</spam> (valor1, valor2, ...);"
-                Para valores de texto, insira entre aspas simples ('').`,
+                Para valores de texto, insira entre aspas simples ('Texto").`,
                 imagem: "./imagens/insert-tabela.png"
             },
             {
