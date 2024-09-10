@@ -73,7 +73,7 @@ const tutorialMysql = [
                 tituloConteudo: "Criar uma conexão MySQL",
                 descricaoConteudo: `
                 Abra o MySQL Workbench e, no painel de "MySQL Connections", clique no ícone de "+" para adicionar uma nova conexão. 
-                Preencha os campos como "Hostname" (localhost) e "Port" (3306) que é a porta padrão do MySQL.
+                Preencha os campos como "Hostname" (localhost) e "Port" (3306) que é a porta que está rodando o serviço Mysql no xampp.
                 O "Username" geralmente será 'root', e insira a senha que foi configurada durante a instalação.
                 `,
                 imagem: "./imagens/conexao.png"
@@ -100,7 +100,13 @@ const tutorialMysql = [
                 descricaoConteudo: `Após criar o banco de dados, execute "<spam class="estilo-sql">SHOW DATABASES;</spam>" para listar todos os bancos de dados criados. 
 `,
                 imagem: false
-            }
+            },
+            {
+                tituloConteudo: "Selecionar Database",
+                descricaoConteudo: `Atualize a lista de "Schemas" e procure sua database criada e de dois cliques para seleciona-la
+                ou o comando "<spam class="estilo-sql">USE</spam> nome_do_banco_de_dados;".`,
+                imagem: "./imagens/selecionar-db.png"
+            },
         ],
         status: Status.NAO_CONCLUIDO
 
@@ -114,12 +120,6 @@ const tutorialMysql = [
         Cada tabela é como uma planilha, onde as colunas representam os campos (como nome, idade, data) 
         e as linhas são os registros dos dados.`,
         conteudo: [
-            {
-                tituloConteudo: "Selecionar sua Database",
-                descricaoConteudo: `Atualize a lista de "Schemas" e procure sua database criada e de dois cliques para seleciona-la
-                ou o comando "<spam class="estilo-sql">USE</spam> nome_do_banco_de_dados;".`,
-                imagem: false
-            },
 
             {
                 tituloConteudo: "Criando tabela",
